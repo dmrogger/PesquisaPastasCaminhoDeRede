@@ -8,9 +8,11 @@ Existe ao final deste README.md, algumas informações adicionais como: Bibliote
 A aplicação pode ser executada diretamente no Pycharm ou o código pode ser compilado, com o pyinstaller ou outros. É importante se atentar a algumas váriaveis que devem ser alteradas.
 
 Aqui devem ser inseridos o usuário que possuí acesso a pasta de rede, não precisa ser o mesmo que está logado na máquina.
+
 ![Captura de tela 2023-06-11 165804](https://github.com/dmrogger/AcademiaFitnessCenter/assets/86617363/cfedce94-80c6-4cff-aca6-bf3351b32586)
 
 Aqui deve ser inserido o caminho de rede que deseja fazer a busca, **atenção** o caminho de rede não pode possuir números, caso o possua é necessário fazer uma adptação no código para remoção dos números do caminho de rede antes que ele execute as funções de busca, caso contrário os resultados podem ser incosistentes.
+
 ![Captura de tela 2023-06-11 170101](https://github.com/dmrogger/AcademiaFitnessCenter/assets/86617363/045cb99a-b217-47b2-b0fb-19719b61a908)
 
 ## Contexto
@@ -30,6 +32,7 @@ O relatório deveria conter: CNPJ da loja parceira, CPF do cliente e uma flag in
 Inicialmente a ideia era gerar esse relatório em forma de um arquivo .CSV o que até chegou a ser feito, entretando como não se sabia ao certo a quantidade de clientes dentro das pastas CPNJ's 
 
 Exemplo de relatório CSV:
+
 ![PastaDeRede5](https://github.com/dmrogger/AcademiaFitnessCenter/assets/86617363/4a032e09-5928-45da-9305-a2f1b15d4fb8)
 
 O primeiro Campo seria o CNPJ o segundo o CPF e o terceiro a Flag de arquivo, neste exemplo a pasta CNPJ possuía 3 clientes, sendo um deles com uma pasta vazia.
